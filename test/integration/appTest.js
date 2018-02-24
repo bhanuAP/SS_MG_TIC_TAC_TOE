@@ -50,5 +50,19 @@ describe("# App",()=>{
         .end(done);
       });
     });
+    it("should redirect to the landing page for invalid Name",done=>{
+      request(app)
+      .get("/")
+      .expect(/Create Game/)
+      .end(()=>{
+        request(app)
+        .post("/game/joinGameCreator")
+        .send("playerName=")
+        .expect(302)
+        .cookie.include("InavalidName","Enter%20valid%20name")
+        .redirectsTo("/land")
+        .end(done);
+      })
+    });
   });
 });
