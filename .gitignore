@@ -1,2 +1,4 @@
 node_modules
 package-Lock.json
+.DS_Store
+.nyc_output
