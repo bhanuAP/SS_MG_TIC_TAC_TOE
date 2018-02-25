@@ -84,4 +84,14 @@ describe("# App",()=>{
       .end(done);
     });
   });
+  describe("## GET /game/TICTACTOE1234/wait",()=>{
+    it("should get the waiting page of the game",done=>{
+      request(app)
+      .get('/game/TICTACTOE1234/wait')
+      .expect(/TIC TAC TOE/)
+      .expect(/Please Wait.../)
+      .expect(/please wait until your co-player joins the game TICTACTOE1234/)
+      .end(done);
+    });
+  });
 });

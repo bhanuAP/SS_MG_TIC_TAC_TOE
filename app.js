@@ -4,6 +4,7 @@ const fs = require('fs');
 
 const logRequest = require('./source/utils/logger.js');
 const createGameHandlers = require('./source/routes/createGameHandlers.js');
+const joinGameHandlers = require('./source/routes/joinGameHandlers.js');
 
 const app = express();
 
@@ -22,6 +23,7 @@ app.use(logRequest);
 app.get(['/','/land'],createGameHandlers.serveLandingPage);
 app.post('/game/joinGameCreator',createGameHandlers.createGame);
 app.get('/game/:gameId/shareGameId',createGameHandlers.serveSharingGamePage);
+app.get('/game/:gameId/wait',joinGameHandlers.serveWaitingPage);
 
 app.use(express.static('public'));
 module.exports = app;
