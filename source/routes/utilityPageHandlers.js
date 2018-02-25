@@ -23,7 +23,7 @@ const validateGameId = function(req,res,next) {
   if(req.app.games[gameId]) {
     next();
   } else {
-    res.cookie('invalidGameId','Enter your name to create new game');
+    res.cookie('createGame','Enter your name to create new game');
     res.redirect('/land');
   }
 };

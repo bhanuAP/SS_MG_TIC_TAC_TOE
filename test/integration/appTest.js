@@ -140,7 +140,7 @@ describe("# App",()=>{
         .get('/game/TICTACTOE12345/wait')
         .expect(302)
         .redirectsTo("/land")
-        .cookie.include('invalidGameId','Enter%20your%20name%20to%20create%20new%20game')
+        .cookie.include('createGame',`Enter%20your%20name%20to%20create%20new%20game`)
         .end(done);
       });
     });

@@ -26,6 +26,8 @@ app.post('/game/joinGameCreator',createGameHandlers.createGame);
 app.get('/game/:gameId/shareGameId',utilityPageHandlers.serveSharingPage);
 app.get('/game/:gameId/wait',utilityPageHandlers.serveWaitingPage);
 app.get('/game/:gameId/hasPlayerJoined',joinGameHandlers.serveGamePage);
+app.post('/game/join',joinGameHandlers.validateGameIdForJoiner);
+app.get('/game/:gameId/join',joinGameHandlers.serveEnrollingForm);
 
 app.use(express.static('public'));
 module.exports = app;

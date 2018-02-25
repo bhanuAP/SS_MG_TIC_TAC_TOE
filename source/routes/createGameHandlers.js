@@ -4,9 +4,9 @@ const serveLandingPage = function(req,res) {
   landingPage = req.app.fs.readFileSync('./templates/landingPage.html','utf8');
   landingPage = landingPage.replace('{{default}}',"create")
   .replace('{{INVALIDNAME}}',req.cookies.inavalidName||"")
-  .replace('{{EnterName}}',req.cookies.invalidGameId||"");
+  .replace('{{CREATEGAME}}',req.cookies.createGame||"");
   res.clearCookie('inavalidName');
-  res.clearCookie('invalidGameId');
+  res.clearCookie('createGame');
   res.type('html');
   res.send(landingPage);
 };

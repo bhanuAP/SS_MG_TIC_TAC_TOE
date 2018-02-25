@@ -37,15 +37,16 @@
         <input type="text" name="gameCreator" id="gameId" value="">
         <input type="submit" value="Create Game">
         <span class="error">{{INVALIDNAME}}</span>
-        <span class="error">{{EnterName}}</span>
+        <span class="error">{{CREATEGAME}}</span>
       </form>
     </div>
 
-    <div class="tabcontent" id="joingame">
+    <div class="tabcontent" id="joinGame">
       <form action="/game/join" method="post">
         <label for="gameId">Enter Game Id</label>
         <input type="text" name="gameId" id="gameId">
         <input type="submit" value="Join Game">
+        <span class="error">{{INVALIDGAMEID}}</span>
       </form>
     </div>
 
