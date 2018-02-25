@@ -10,9 +10,9 @@ const app = express();
 app.fs = fs;
 app.games = {};
 
-app.gameIdGenerator = function() {
+app.gameIdGenerator = ()=> {
   return `TICTACTOE${new Date().getTime()}`;
-}
+};
 
 app.use(express.urlencoded({extended:false}));
 app.use(express.json());
@@ -21,7 +21,7 @@ app.use(logRequest);
 
 app.get(['/','/land'],createGameHandlers.serveLandingPage);
 app.post('/game/joinGameCreator',createGameHandlers.createGame);
-
+app.get('/game/:gameId/shareGameId',createGameHandlers.serveSharingGamePage);
 
 app.use(express.static('public'));
 module.exports = app;

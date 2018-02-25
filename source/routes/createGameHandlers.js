@@ -8,7 +8,7 @@ const serveLandingPage = function(req,res) {
 }
 
 const verifyPlayerName = function(req,res,next) {
-  let playerName = req.body['playerName'];
+  let playerName = req.body['gameCreator'];
   if(!playerName) {
     res.cookie("InavalidName","Enter valid name");
     res.redirect('/land');
@@ -18,7 +18,7 @@ const verifyPlayerName = function(req,res,next) {
 }
 
 const createGameAndJoinCreator = function(req,res) {
-  let player = req.body['playerName'];
+  let player = req.body['gameCreator'];
   let game = new Game();
   let gameId = req.app.gameIdGenerator();
   game.addPlayer(player);
@@ -26,7 +26,18 @@ const createGameAndJoinCreator = function(req,res) {
   res.redirect(`/game/${gameId}/shareGameId`);
 }
 
+const serveSharingGamePage = function(req,res) {
+  let {gameId} = req.params;
+  let sharingPage =
+req.app.fs.readFileSync('./templates/shareGameId.html','utf8');
+  sharingPage =
+  sharingPage.replace('{{gameId}}',gameId).replace('{{gameId}}',gameId);
+  res.type('html')
+  res.send(sharingPage);
+}
+
 module.exports = {
   serveLandingPage,
-  createGame: [verifyPlayerName,createGameAndJoinCreator]
+  createGame: [verifyPlayerName,createGameAndJoinCreator],
+  serveSharingGamePage
 }

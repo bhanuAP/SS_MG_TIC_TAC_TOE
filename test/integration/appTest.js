@@ -1,13 +1,12 @@
 const assert = require('chai').assert;
 const request = require('supertest');
 const app = require('../../app.js');
-const gameIdGen = app.gameIdGen;
-
+const gameIdGen = app.gameIdGenerator;
 
 describe("# App",()=>{
   beforeEach(() => {
     app.gameIdGenerator = () => {
-      return 1234;
+      return "TICTACTOE1234";
     };
   });
 
@@ -15,7 +14,7 @@ describe("# App",()=>{
     app.gameIdGenerator = gameIdGen;
   });
   describe("## GET /",()=>{
-    it("should get the landing page of the games",done=>{
+    it("should get the landing page of the game for /",done=>{
       request(app)
       .get("/")
       .expect(/Create Game/)
@@ -26,7 +25,7 @@ describe("# App",()=>{
     });
   });
   describe("## GET /land",()=>{
-    it("should get the landing page of the games",done=>{
+    it("should get the landing page of the game for /land",done=>{
       request(app)
       .get("/land")
       .expect(/Create Game/)
@@ -35,7 +34,7 @@ describe("# App",()=>{
       .expect(/Enter Game Id/)
       .end(done);
     });
-    it("should get the landing page of the games",done=>{
+    it("should get the landing page of the game",done=>{
       request(app)
       .get("/")
       .expect(/Create Game/)
@@ -45,8 +44,8 @@ describe("# App",()=>{
       .end(()=>{
         request(app)
         .post("/game/joinGameCreator")
-        .send("playerName=Bhanu")
-        .redirectsTo("/game/1234/shareGameId")
+        .send("gameCreator=Bhanu")
+        .redirectsTo("/game/TICTACTOE1234/shareGameId")
         .end(done);
       });
     });
@@ -63,6 +62,26 @@ describe("# App",()=>{
         .redirectsTo("/land")
         .end(done);
       })
+    });
+  });
+  describe("## /game/joinGameCreator",()=>{
+    it("should redirect to shareGameId page if the name is valid",done=>{
+      request(app)
+      .post("/game/joinGameCreator")
+      .send("gameCreator=Bhanu")
+      .redirectsTo("/game/TICTACTOE1234/shareGameId")
+      .end(done);
+    });
+  });
+  describe("## GET /game/TICTACTOE1234/shareGameId",()=>{
+    it("should get the share gameId page",done=>{
+      request(app)
+      .get("/game/TICTACTOE1234/shareGameId")
+      .expect(200)
+      .expect(/Share Game Id/)
+      .expect(/Game Id:/)
+      .expect(/TICTACTOE1234/)
+      .end(done);
     });
   });
 });
