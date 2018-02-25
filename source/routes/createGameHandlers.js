@@ -9,7 +9,7 @@ const serveLandingPage = function(req,res) {
   res.clearCookie('invalidGameId');
   res.type('html');
   res.send(landingPage);
-}
+};
 
 const verifyPlayerName = function(req,res,next) {
   let playerName = req.body['gameCreator'];
@@ -19,7 +19,7 @@ const verifyPlayerName = function(req,res,next) {
   } else {
     next();
   }
-}
+};
 
 const createGameAndJoinCreator = function(req,res) {
   let player = req.body['gameCreator'];
@@ -28,7 +28,7 @@ const createGameAndJoinCreator = function(req,res) {
   game.addPlayer(player);
   req.app.games[gameId] = game;
   res.redirect(`/game/${gameId}/shareGameId`);
-}
+};
 
 const serveSharingGamePage = function(req,res) {
   let {gameId} = req.params;
@@ -38,7 +38,17 @@ const serveSharingGamePage = function(req,res) {
   sharingPage.replace('{{gameId}}',gameId).replace('{{gameId}}',gameId);
   res.type('html')
   res.send(sharingPage);
-}
+};
+
+const serveWaitingPage = function(req,res) {
+  let {gameId} = req.params;
+  let waitingPage =
+  req.app.fs.readFileSync('./templates/waitingPage.html','utf8');
+  waitingPage = waitingPage.replace('{{gameId}}',gameId);
+  res.type('html');
+  res.write(waitingPage);
+  res.end();
+};
 
 const validateGameId = function(req,res,next) {
   let {gameId} = req.params;
@@ -53,5 +63,6 @@ const validateGameId = function(req,res,next) {
 module.exports = {
   serveLandingPage,
   createGame: [verifyPlayerName,createGameAndJoinCreator],
-  serveSharingGamePage: [validateGameId,serveSharingGamePage]
-}
+  serveSharingGamePage: [validateGameId,serveSharingGamePage],
+  serveWaitingPage: [validateGameId,serveWaitingPage]
+};

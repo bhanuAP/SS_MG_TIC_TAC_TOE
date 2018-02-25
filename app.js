@@ -23,7 +23,7 @@ app.use(logRequest);
 app.get(['/','/land'],createGameHandlers.serveLandingPage);
 app.post('/game/joinGameCreator',createGameHandlers.createGame);
 app.get('/game/:gameId/shareGameId',createGameHandlers.serveSharingGamePage);
-app.get('/game/:gameId/wait',joinGameHandlers.serveWaitingPage);
+app.get('/game/:gameId/wait',createGameHandlers.serveWaitingPage);
 
 app.use(express.static('public'));
 module.exports = app;
