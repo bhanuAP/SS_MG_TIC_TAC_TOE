@@ -8,8 +8,8 @@
 <body>
   <h1>TIC TAC TOE</h1>
   <main>
-    <form action="/game/join/{{ ID }}" method="post">
-      <h2>Game ID : {{ID}}</h2>
+    <form action="/game/{{ID}}/join" method="post">
+      <h2>Game ID: {{ID}}</h2>
       <label for="playerName">Name</label>
       <input id="playerName" type="text" name="gameJoiner"/>
       <input type="submit" value="Submit">

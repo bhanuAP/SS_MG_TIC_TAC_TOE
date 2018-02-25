@@ -12,6 +12,7 @@ const serveEnrollingForm = function(req,res) {
   let enrollingForm =
   req.app.fs.readFileSync('./templates/enrollingForm.html','utf8');
   enrollingForm = enrollingForm.replace('{{ID}}',gameId)
+  .replace('{{ID}}',gameId)
   .replace("{{invalidName}}",req.cookies.invalidName||'');
   res.type('html');
   res.send(enrollingForm);
@@ -38,8 +39,28 @@ const validateGameId = function(req,res,next) {
   }
 };
 
+const addPlayerToGame = function(req,res) {
+  let player = req.body['gameJoiner'];
+  let {gameId} = req.params;
+  let game = req.app.games[gameId];
+  game.addPlayer(player);
+  res.redirect(`/game/${gameId}`);
+}
+
+const verifyPlayerName = function(req,res,next) {
+  let playerName = req.body['gameJoiner'];
+  let {gameId} = req.params;
+  if(playerName) {
+    next();
+  } else {
+    res.cookie("invalidName","Enter valid name");
+    res.redirect(`/game/${gameId}/join`);
+  }
+};
+
 module.exports = {
   serveGamePage,
   validateGameIdForJoiner,
-  serveEnrollingForm: [validateGameId,serveEnrollingForm]
+  serveEnrollingForm: [validateGameId,serveEnrollingForm],
+  addPlayerToGame: [validateGameId,verifyPlayerName,addPlayerToGame]
 }

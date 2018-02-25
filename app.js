@@ -28,6 +28,7 @@ app.get('/game/:gameId/wait',utilityPageHandlers.serveWaitingPage);
 app.get('/game/:gameId/hasPlayerJoined',joinGameHandlers.serveGamePage);
 app.post('/game/join',joinGameHandlers.validateGameIdForJoiner);
 app.get('/game/:gameId/join',joinGameHandlers.serveEnrollingForm);
+app.post('/game/:gameId/join',joinGameHandlers.addPlayerToGame);
 
 app.use(express.static('public'));
 module.exports = app;

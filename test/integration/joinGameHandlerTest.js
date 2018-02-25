@@ -32,13 +32,27 @@ describe("# App",()=>{
     });
   });
   describe("## /game/join",()=>{
-    it("should get the landing page for invalid game ID",done=>{
+    it("should redirect to the landing page for invalid gameId",done=>{
       request(app)
       .post("/game/join")
       .send("gameId=TICTACTOE12345")
       .expect(302)
       .redirectsTo('/land')
       .end(done);
+    });
+    it("should get the joinGame option directly fo invalidGameId cookie",done=>{
+      request(app)
+      .post("/game/join")
+      .send("gameId=TICTACTOE12345")
+      .expect(302)
+      .redirectsTo('/land')
+      .end(()=>{
+        request(app)
+        .get("/land")
+        .set('cookie',['invalidGameId=Enter validate Game ID to join game'])
+        .expect(200)
+        .end(done);
+      });
     });
     it("should get the enrlling form for valid game ID",done=>{
       request(app)
@@ -49,7 +63,7 @@ describe("# App",()=>{
       .end(done);
     });
   });
-  describe("## /game/TICTACTOE1234/join",()=>{
+  describe("## GET /game/TICTACTOE1234/join",()=>{
     it("should get the enrolling form for the user",done=>{
       request(app)
       .get("/game/TICTACTOE1234/join")
@@ -65,6 +79,32 @@ describe("# App",()=>{
       .get("/game/TICTACTOE12345/join")
       .expect(302)
       .cookie.include('invalidGameId',message)
+      .end(done);
+    });
+  });
+  describe("## POST /game/TICTACTOE1234/join",()=>{
+    it("should redirect to landingPage for invalid name",done=>{
+      request(app)
+      .post("/game/TICTACTOE12345/join")
+      .send("gameJoiner=Teja")
+      .expect(302)
+      .redirectsTo('/land')
+      .end(done);
+    });
+    it("should redirect to the enrolling form page for invalid name",done=>{
+      request(app)
+      .post("/game/TICTACTOE1234/join")
+      .send("gameJoiner=")
+      .expect(302)
+      .redirectsTo('/game/TICTACTOE1234/join')
+      .end(done);
+    });
+    it("should add player to game and redirect to board page for valid name",done=>{
+      request(app)
+      .post("/game/TICTACTOE1234/join")
+      .send("gameJoiner=Teja")
+      .expect(302)
+      .redirectsTo('/game/TICTACTOE1234')
       .end(done);
     });
   });
