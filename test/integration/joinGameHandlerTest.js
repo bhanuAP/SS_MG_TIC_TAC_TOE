@@ -60,10 +60,11 @@ describe("# App",()=>{
       .end(done);
     });
     it("should redirect to the landing page fot invalid gameId",done=>{
+      let message = 'Enter%20validate%20Game%20ID%20to%20join%20game';
       request(app)
       .get("/game/TICTACTOE12345/join")
       .expect(302)
-      .cookie.include('invalidGameId','Enter%20validate%20Game%20ID%20to%20join%20game')
+      .cookie.include('invalidGameId',message)
       .end(done);
     });
   });

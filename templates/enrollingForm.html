@@ -11,7 +11,7 @@
     <form action="/game/join/{{ ID }}" method="post">
       <h2>Game ID : {{ID}}</h2>
       <label for="playerName">Name</label>
-      <input id="playerName" type="text" name="gameJoiner" required/>
+      <input id="playerName" type="text" name="gameJoiner"/>
       <input type="submit" value="Submit">
       <span class="error">{{invalidName}}</span>
     </form>

@@ -26,15 +26,16 @@
 <body>
   <h1>TIC TAC TOE</h1>
   <main>
+
     <div class="tab">
-      <button class="tablinks" onclick="openTab(event, 'creategame')" id="create">Create Game</button>
-      <button class="tablinks" onclick="openTab(event, 'joingame')" id="join">Join Game</button>
+      <button class="tablinks" onclick="openTab(event, 'createGame')" id="create">Create Game</button>
+      <button class="tablinks" onclick="openTab(event, 'joinGame')" id="join">Join Game</button>
     </div>
 
-    <div class="tabcontent" id="creategame">
+    <div class="tabcontent" id="createGame">
       <form action="/game/joinGameCreator" method="post">
         <label for="name">Enter Your Name</label>
-        <input type="text" name="gameCreator" id="gameId" value="">
+        <input type="text" name="gameCreator" id="gameId">
         <input type="submit" value="Create Game">
         <span class="error">{{INVALIDNAME}}</span>
         <span class="error">{{CREATEGAME}}</span>

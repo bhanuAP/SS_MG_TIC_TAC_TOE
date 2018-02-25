@@ -2,11 +2,14 @@ const Game = require('../models/game.js');
 
 const serveLandingPage = function(req,res) {
   landingPage = req.app.fs.readFileSync('./templates/landingPage.html','utf8');
-  landingPage = landingPage.replace('{{default}}',"create")
+  landingPage = landingPage
+  .replace('{{default}}',req.cookies.invalidGameId ? 'join' : 'create')
   .replace('{{INVALIDNAME}}',req.cookies.inavalidName||"")
-  .replace('{{CREATEGAME}}',req.cookies.createGame||"");
+  .replace('{{CREATEGAME}}',req.cookies.createGame||"")
+  .replace('{{INVALIDGAMEID}}',req.cookies.invalidGameId||"");
   res.clearCookie('inavalidName');
   res.clearCookie('createGame');
+  res.clearCookie('invalidGameId');
   res.type('html');
   res.send(landingPage);
 };

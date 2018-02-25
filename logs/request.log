@@ -39335,3 +39335,3263 @@ HEADERS=> {
 }
 COOKIES=> {}
 BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:38:10
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:60876",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:38:10
+GET /land
+HEADERS=> {
+  "host": "127.0.0.1:60878",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:38:10
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:60880",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:38:10
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:60882",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:38:10
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:60884",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:38:10
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:60886",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "11",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "playerName": ""
+}
+--------------------------------
+Sun Feb 25 2018 20:38:10
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:60888",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:38:10
+GET /game/TICTACTOE1234/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:60890",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:38:10
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:60892",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:38:10
+GET /game/TICTACTOE1234/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:60894",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:38:10
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:60896",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:38:10
+GET /game/TICTACTOE12345/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:60898",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:38:10
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:60900",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:38:10
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:60902",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:38:10
+GET /game/TICTACTOE1234/wait
+HEADERS=> {
+  "host": "127.0.0.1:60904",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:38:10
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:60906",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:38:10
+GET /game/TICTACTOE12345/wait
+HEADERS=> {
+  "host": "127.0.0.1:60908",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:38:10
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:60910",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:38:10
+GET /game/TICTACTOE1234/hasPlayerJoined
+HEADERS=> {
+  "host": "127.0.0.1:60912",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:38:10
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:60914",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:38:10
+POST /game/join
+HEADERS=> {
+  "host": "127.0.0.1:60916",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "21",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameId": "TICTACTOE12345"
+}
+--------------------------------
+Sun Feb 25 2018 20:38:10
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:60918",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:38:10
+POST /game/join
+HEADERS=> {
+  "host": "127.0.0.1:60920",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "20",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameId": "TICTACTOE1234"
+}
+--------------------------------
+Sun Feb 25 2018 20:38:10
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:60922",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:38:10
+GET /game/TICTACTOE1234/join
+HEADERS=> {
+  "host": "127.0.0.1:60924",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:38:10
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:60926",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:38:10
+GET /game/TICTACTOE12345/join
+HEADERS=> {
+  "host": "127.0.0.1:60928",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:42:45
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:61004",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:42:45
+GET /land
+HEADERS=> {
+  "host": "127.0.0.1:61006",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:42:45
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:61008",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:42:45
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:61010",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:42:45
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:61012",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:42:45
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:61014",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "11",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "playerName": ""
+}
+--------------------------------
+Sun Feb 25 2018 20:42:45
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:61016",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:42:45
+GET /game/TICTACTOE1234/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:61018",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:42:45
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:61020",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:42:45
+GET /game/TICTACTOE1234/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:61022",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:42:46
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:61024",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:42:46
+GET /game/TICTACTOE12345/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:61026",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:42:46
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:61028",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:42:46
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:61030",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:42:46
+GET /game/TICTACTOE1234/wait
+HEADERS=> {
+  "host": "127.0.0.1:61032",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:42:46
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:61034",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:42:46
+GET /game/TICTACTOE12345/wait
+HEADERS=> {
+  "host": "127.0.0.1:61036",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:42:46
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:61038",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:42:46
+GET /game/TICTACTOE1234/hasPlayerJoined
+HEADERS=> {
+  "host": "127.0.0.1:61040",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:42:46
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:61042",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:42:46
+POST /game/join
+HEADERS=> {
+  "host": "127.0.0.1:61044",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "21",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameId": "TICTACTOE12345"
+}
+--------------------------------
+Sun Feb 25 2018 20:42:46
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:61046",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:42:46
+POST /game/join
+HEADERS=> {
+  "host": "127.0.0.1:61048",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "20",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameId": "TICTACTOE1234"
+}
+--------------------------------
+Sun Feb 25 2018 20:42:46
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:61050",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:42:46
+GET /game/TICTACTOE1234/join
+HEADERS=> {
+  "host": "127.0.0.1:61052",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:42:46
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:61054",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:42:46
+GET /game/TICTACTOE12345/join
+HEADERS=> {
+  "host": "127.0.0.1:61056",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:43:38
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:61063",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:43:39
+GET /land
+HEADERS=> {
+  "host": "127.0.0.1:61065",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:43:39
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:61067",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:43:39
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:61069",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:43:39
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:61071",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:43:39
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:61073",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "11",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "playerName": ""
+}
+--------------------------------
+Sun Feb 25 2018 20:43:39
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:61075",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:43:39
+GET /game/TICTACTOE1234/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:61077",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:43:39
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:61079",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:43:39
+GET /game/TICTACTOE1234/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:61081",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:43:39
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:61083",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:43:39
+GET /game/TICTACTOE12345/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:61085",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:43:39
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:61087",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:43:39
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:61089",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:43:39
+GET /game/TICTACTOE1234/wait
+HEADERS=> {
+  "host": "127.0.0.1:61091",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:43:39
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:61093",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:43:39
+GET /game/TICTACTOE12345/wait
+HEADERS=> {
+  "host": "127.0.0.1:61095",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:43:39
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:61097",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:43:39
+GET /game/TICTACTOE1234/hasPlayerJoined
+HEADERS=> {
+  "host": "127.0.0.1:61099",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:43:39
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:61101",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:43:39
+POST /game/join
+HEADERS=> {
+  "host": "127.0.0.1:61103",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "21",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameId": "TICTACTOE12345"
+}
+--------------------------------
+Sun Feb 25 2018 20:43:39
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:61105",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:43:39
+POST /game/join
+HEADERS=> {
+  "host": "127.0.0.1:61107",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "20",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameId": "TICTACTOE1234"
+}
+--------------------------------
+Sun Feb 25 2018 20:43:39
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:61109",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:43:39
+GET /game/TICTACTOE1234/join
+HEADERS=> {
+  "host": "127.0.0.1:61111",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:43:39
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:61113",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:43:39
+GET /game/TICTACTOE12345/join
+HEADERS=> {
+  "host": "127.0.0.1:61115",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:43:54
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:61117",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:43:54
+GET /land
+HEADERS=> {
+  "host": "127.0.0.1:61119",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:43:54
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:61121",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:43:54
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:61123",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:43:54
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:61125",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:43:54
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:61127",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "11",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "playerName": ""
+}
+--------------------------------
+Sun Feb 25 2018 20:43:54
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:61129",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:43:54
+GET /game/TICTACTOE1234/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:61131",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:43:54
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:61133",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:43:54
+GET /game/TICTACTOE1234/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:61135",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:43:54
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:61137",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:43:54
+GET /game/TICTACTOE12345/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:61139",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:43:54
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:61141",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:43:54
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:61143",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:43:54
+GET /game/TICTACTOE1234/wait
+HEADERS=> {
+  "host": "127.0.0.1:61145",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:43:54
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:61147",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:43:54
+GET /game/TICTACTOE12345/wait
+HEADERS=> {
+  "host": "127.0.0.1:61149",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:43:54
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:61151",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:43:54
+GET /game/TICTACTOE1234/hasPlayerJoined
+HEADERS=> {
+  "host": "127.0.0.1:61153",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:43:54
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:61155",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:43:54
+POST /game/join
+HEADERS=> {
+  "host": "127.0.0.1:61157",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "21",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameId": "TICTACTOE12345"
+}
+--------------------------------
+Sun Feb 25 2018 20:43:54
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:61159",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:43:54
+POST /game/join
+HEADERS=> {
+  "host": "127.0.0.1:61161",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "20",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameId": "TICTACTOE1234"
+}
+--------------------------------
+Sun Feb 25 2018 20:43:54
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:61163",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:43:54
+GET /game/TICTACTOE1234/join
+HEADERS=> {
+  "host": "127.0.0.1:61165",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:43:54
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:61167",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:43:54
+GET /game/TICTACTOE12345/join
+HEADERS=> {
+  "host": "127.0.0.1:61169",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:44:47
+GET /
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "if-none-match": "W/\"6b4-cN//V4uOqnx7aWgfN/T6/76P+ZE\""
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:44:47
+GET /css/master.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:8000/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "if-none-match": "W/\"9f8-161c6fe67e8\"",
+  "if-modified-since": "Sat, 24 Feb 2018 08:46:57 GMT"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:44:51
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "content-length": "12",
+  "cache-control": "max-age=0",
+  "origin": "http://localhost:8000",
+  "upgrade-insecure-requests": "1",
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": ""
+}
+--------------------------------
+Sun Feb 25 2018 20:44:51
+GET /land
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "cookie": "inavalidName=Enter%20valid%20name",
+  "if-none-match": "W/\"6d6-ZETR96ZQ75K288qi6yTm3cs6qQs\""
+}
+COOKIES=> {
+  "inavalidName": "Enter valid name"
+}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:44:51
+GET /css/master.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "if-none-match": "W/\"9f8-161c6fe67e8\"",
+  "if-modified-since": "Sat, 24 Feb 2018 08:46:57 GMT"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:44:56
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "content-length": "17",
+  "cache-control": "max-age=0",
+  "origin": "http://localhost:8000",
+  "upgrade-insecure-requests": "1",
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:44:56
+GET /game/TICTACTOE1519571696112/shareGameId
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:44:56
+GET /css/shareGameId.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:8000/game/TICTACTOE1519571696112/shareGameId",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:45:02
+GET /game/TICTACTOE15571696112/shareGameId
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:45:02
+GET /land
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "cookie": "createGame=Enter%20your%20name%20to%20create%20new%20game",
+  "if-none-match": "W/\"6f9-DDHvXTGLoABqYojHMC9snkMv0eY\""
+}
+COOKIES=> {
+  "createGame": "Enter your name to create new game"
+}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:45:02
+GET /css/master.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "if-none-match": "W/\"9f8-161c6fe67e8\"",
+  "if-modified-since": "Sat, 24 Feb 2018 08:46:57 GMT"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:45:06
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "content-length": "17",
+  "cache-control": "max-age=0",
+  "origin": "http://localhost:8000",
+  "upgrade-insecure-requests": "1",
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:45:06
+GET /game/TICTACTOE1519571706133/shareGameId
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:45:06
+GET /css/shareGameId.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:8000/game/TICTACTOE1519571706133/shareGameId",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:45:08
+GET /game/TICTACTOE1519571706133/wait?
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/game/TICTACTOE1519571706133/shareGameId",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:45:08
+GET /css/waitingPage.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:8000/game/TICTACTOE1519571706133/wait?",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:45:08
+GET /js/wait.js
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "*/*",
+  "referer": "http://localhost:8000/game/TICTACTOE1519571706133/wait?",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "if-none-match": "W/\"1d4-161cceb2ce0\"",
+  "if-modified-since": "Sun, 25 Feb 2018 12:23:40 GMT"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:45:08
+GET /images/preloader.gif
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+  "referer": "http://localhost:8000/game/TICTACTOE1519571706133/wait?",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "if-none-match": "W/\"13ea4-161cc6e8e88\"",
+  "if-modified-since": "Sun, 25 Feb 2018 10:07:33 GMT"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:45:11
+GET /game/TICTACTOE1519571706133/hasPlayerJoined
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "*/*",
+  "referer": "http://localhost:8000/game/TICTACTOE1519571706133/wait?",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:45:13
+GET /game/TICTACTOE9571706133/wait?
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:45:13
+GET /land
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "cookie": "createGame=Enter%20your%20name%20to%20create%20new%20game",
+  "if-none-match": "W/\"70b-adHR+XecKEcL6mV2GaMo/oqiA/4\""
+}
+COOKIES=> {
+  "createGame": "Enter your name to create new game"
+}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:45:13
+GET /css/master.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "if-none-match": "W/\"9f8-161c6fe67e8\"",
+  "if-modified-since": "Sat, 24 Feb 2018 08:46:57 GMT"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:45:16
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "content-length": "17",
+  "cache-control": "max-age=0",
+  "origin": "http://localhost:8000",
+  "upgrade-insecure-requests": "1",
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:45:16
+GET /game/TICTACTOE1519571716230/shareGameId
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:45:16
+GET /css/shareGameId.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:8000/game/TICTACTOE1519571716230/shareGameId",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:45:21
+GET /game/TICTACTOE1519571716230/wait?
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/game/TICTACTOE1519571716230/shareGameId",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:45:21
+GET /css/waitingPage.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:8000/game/TICTACTOE1519571716230/wait?",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:45:21
+GET /js/wait.js
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "*/*",
+  "referer": "http://localhost:8000/game/TICTACTOE1519571716230/wait?",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "if-none-match": "W/\"1d4-161cceb2ce0\"",
+  "if-modified-since": "Sun, 25 Feb 2018 12:23:40 GMT"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:45:21
+GET /images/preloader.gif
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+  "referer": "http://localhost:8000/game/TICTACTOE1519571716230/wait?",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "if-none-match": "W/\"13ea4-161cc6e8e88\"",
+  "if-modified-since": "Sun, 25 Feb 2018 10:07:33 GMT"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:45:24
+GET /game/TICTACTOE1519571716230/hasPlayerJoined
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "*/*",
+  "referer": "http://localhost:8000/game/TICTACTOE1519571716230/wait?",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:45:27
+GET /game/TICTACTOE1519571716230/hasPlayerJoined
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "*/*",
+  "referer": "http://localhost:8000/game/TICTACTOE1519571716230/wait?",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "if-none-match": "W/\"35-jfxZPFzTGknsJZW2pHhgEJylEaU\""
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:45:30
+GET /game/TICTACTOE1519571716230/hasPlayerJoined
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "*/*",
+  "referer": "http://localhost:8000/game/TICTACTOE1519571716230/wait?",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "if-none-match": "W/\"35-jfxZPFzTGknsJZW2pHhgEJylEaU\""
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:45:33
+GET /game/TICTACTOE1519571716230/hasPlayerJoined
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "*/*",
+  "referer": "http://localhost:8000/game/TICTACTOE1519571716230/wait?",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "if-none-match": "W/\"35-jfxZPFzTGknsJZW2pHhgEJylEaU\""
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:45:36
+GET /game/TICTACTOE1519571716230/hasPlayerJoined
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "*/*",
+  "referer": "http://localhost:8000/game/TICTACTOE1519571716230/wait?",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "if-none-match": "W/\"35-jfxZPFzTGknsJZW2pHhgEJylEaU\""
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:45:39
+GET /
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "if-none-match": "W/\"6e9-xwOgKdTHy4Unlkild49qIIsPSw0\""
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:45:39
+GET /css/master.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:8000/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "if-none-match": "W/\"9f8-161c6fe67e8\"",
+  "if-modified-since": "Sat, 24 Feb 2018 08:46:57 GMT"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:48:50
+GET /
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "if-none-match": "W/\"6e9-xwOgKdTHy4Unlkild49qIIsPSw0\""
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:48:50
+GET /css/master.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:8000/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "if-none-match": "W/\"9f8-161c6fe67e8\"",
+  "if-modified-since": "Sat, 24 Feb 2018 08:46:57 GMT"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:49:09
+GET /
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "if-none-match": "W/\"6e1-NM5+yg9sAIiMfYu7UJVMHDAkir4\""
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:49:09
+GET /css/master.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:8000/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "if-none-match": "W/\"9f8-161c6fe67e8\"",
+  "if-modified-since": "Sat, 24 Feb 2018 08:46:57 GMT"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:56:31
+GET /
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "if-none-match": "W/\"6e1-J1Ipq5gYXw0LIKj+/L4OzB9fiH0\""
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:56:31
+GET /css/master.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:8000/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "if-none-match": "W/\"9f8-161c6fe67e8\"",
+  "if-modified-since": "Sat, 24 Feb 2018 08:46:57 GMT"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:56:39
+POST /game/join
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "content-length": "7",
+  "cache-control": "max-age=0",
+  "origin": "http://localhost:8000",
+  "upgrade-insecure-requests": "1",
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {
+  "gameId": ""
+}
+--------------------------------
+Sun Feb 25 2018 20:56:39
+GET /land
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "cookie": "invalidGameId=Enter%20validate%20Game%20ID%20to%20join%20game",
+  "if-none-match": "W/\"70b-adHR+XecKEcL6mV2GaMo/oqiA/4\""
+}
+COOKIES=> {
+  "invalidGameId": "Enter validate Game ID to join game"
+}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:56:39
+GET /css/master.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "cookie": "invalidGameId=Enter%20validate%20Game%20ID%20to%20join%20game",
+  "if-none-match": "W/\"9f8-161c6fe67e8\"",
+  "if-modified-since": "Sat, 24 Feb 2018 08:46:57 GMT"
+}
+COOKIES=> {
+  "invalidGameId": "Enter validate Game ID to join game"
+}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:56:47
+POST /game/join
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "content-length": "7",
+  "cache-control": "max-age=0",
+  "origin": "http://localhost:8000",
+  "upgrade-insecure-requests": "1",
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "cookie": "invalidGameId=Enter%20validate%20Game%20ID%20to%20join%20game"
+}
+COOKIES=> {
+  "invalidGameId": "Enter validate Game ID to join game"
+}
+BODY=> {
+  "gameId": ""
+}
+--------------------------------
+Sun Feb 25 2018 20:56:47
+GET /land
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "cookie": "invalidGameId=Enter%20validate%20Game%20ID%20to%20join%20game",
+  "if-none-match": "W/\"6f3-jF1SDkTFJf9JpW6s7bQqlsm8XK0\""
+}
+COOKIES=> {
+  "invalidGameId": "Enter validate Game ID to join game"
+}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:56:47
+GET /css/master.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "cookie": "invalidGameId=Enter%20validate%20Game%20ID%20to%20join%20game",
+  "if-none-match": "W/\"9f8-161c6fe67e8\"",
+  "if-modified-since": "Sat, 24 Feb 2018 08:46:57 GMT"
+}
+COOKIES=> {
+  "invalidGameId": "Enter validate Game ID to join game"
+}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:56:56
+POST /game/join
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "content-length": "12",
+  "cache-control": "max-age=0",
+  "origin": "http://localhost:8000",
+  "upgrade-insecure-requests": "1",
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "cookie": "invalidGameId=Enter%20validate%20Game%20ID%20to%20join%20game"
+}
+COOKIES=> {
+  "invalidGameId": "Enter validate Game ID to join game"
+}
+BODY=> {
+  "gameId": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:56:56
+GET /land
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "cookie": "invalidGameId=Enter%20validate%20Game%20ID%20to%20join%20game",
+  "if-none-match": "W/\"6f3-jF1SDkTFJf9JpW6s7bQqlsm8XK0\""
+}
+COOKIES=> {
+  "invalidGameId": "Enter validate Game ID to join game"
+}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:56:56
+GET /css/master.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "cookie": "invalidGameId=Enter%20validate%20Game%20ID%20to%20join%20game",
+  "if-none-match": "W/\"9f8-161c6fe67e8\"",
+  "if-modified-since": "Sat, 24 Feb 2018 08:46:57 GMT"
+}
+COOKIES=> {
+  "invalidGameId": "Enter validate Game ID to join game"
+}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:57:03
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "content-length": "17",
+  "cache-control": "max-age=0",
+  "origin": "http://localhost:8000",
+  "upgrade-insecure-requests": "1",
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "cookie": "invalidGameId=Enter%20validate%20Game%20ID%20to%20join%20game"
+}
+COOKIES=> {
+  "invalidGameId": "Enter validate Game ID to join game"
+}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:57:03
+GET /game/TICTACTOE1519572423523/shareGameId
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "cookie": "invalidGameId=Enter%20validate%20Game%20ID%20to%20join%20game"
+}
+COOKIES=> {
+  "invalidGameId": "Enter validate Game ID to join game"
+}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:57:03
+GET /css/shareGameId.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:8000/game/TICTACTOE1519572423523/shareGameId",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "cookie": "invalidGameId=Enter%20validate%20Game%20ID%20to%20join%20game"
+}
+COOKIES=> {
+  "invalidGameId": "Enter validate Game ID to join game"
+}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:57:32
+GET /land
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "cookie": "invalidGameId=Enter%20validate%20Game%20ID%20to%20join%20game",
+  "if-none-match": "W/\"6f3-jF1SDkTFJf9JpW6s7bQqlsm8XK0\""
+}
+COOKIES=> {
+  "invalidGameId": "Enter validate Game ID to join game"
+}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:57:32
+GET /css/master.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "if-none-match": "W/\"9f8-161c6fe67e8\"",
+  "if-modified-since": "Sat, 24 Feb 2018 08:46:57 GMT"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:57:35
+POST /game/join
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "content-length": "7",
+  "cache-control": "max-age=0",
+  "origin": "http://localhost:8000",
+  "upgrade-insecure-requests": "1",
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {
+  "gameId": ""
+}
+--------------------------------
+Sun Feb 25 2018 20:57:35
+GET /land
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "cookie": "invalidGameId=Enter%20validate%20Game%20ID%20to%20join%20game",
+  "if-none-match": "W/\"6f3-jF1SDkTFJf9JpW6s7bQqlsm8XK0\""
+}
+COOKIES=> {
+  "invalidGameId": "Enter validate Game ID to join game"
+}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:57:35
+GET /css/master.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "if-none-match": "W/\"9f8-161c6fe67e8\"",
+  "if-modified-since": "Sat, 24 Feb 2018 08:46:57 GMT",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:57:37
+GET /land
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "if-none-match": "W/\"6f3-jF1SDkTFJf9JpW6s7bQqlsm8XK0\""
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:57:37
+GET /css/master.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "if-none-match": "W/\"9f8-161c6fe67e8\"",
+  "if-modified-since": "Sat, 24 Feb 2018 08:46:57 GMT",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:57:43
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "content-length": "17",
+  "cache-control": "max-age=0",
+  "origin": "http://localhost:8000",
+  "upgrade-insecure-requests": "1",
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:57:43
+GET /game/TICTACTOE1519572463668/shareGameId
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:57:43
+GET /css/shareGameId.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:8000/game/TICTACTOE1519572463668/shareGameId",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:57:52
+POST /game/join
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "content-length": "29",
+  "cache-control": "max-age=0",
+  "origin": "http://localhost:8000",
+  "upgrade-insecure-requests": "1",
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {
+  "gameId": "TICTACTOE1519572463668"
+}
+--------------------------------
+Sun Feb 25 2018 20:57:52
+GET /game/TICTACTOE1519572463668/join
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:57:52
+GET /css/join.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:8000/game/TICTACTOE1519572463668/join",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:58:24
+GET /
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "if-none-match": "W/\"6d0-c9aAMB/WeLI6P3ZXyeLtn2Y6Uro\""
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:58:24
+GET /css/master.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "if-none-match": "W/\"9f8-161c6fe67e8\"",
+  "if-modified-since": "Sat, 24 Feb 2018 08:46:57 GMT",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:8000/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:58:26
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "content-length": "17",
+  "cache-control": "max-age=0",
+  "origin": "http://localhost:8000",
+  "upgrade-insecure-requests": "1",
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 20:58:26
+GET /game/TICTACTOE1519572506430/shareGameId
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:58:26
+GET /css/shareGameId.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:8000/game/TICTACTOE1519572506430/shareGameId",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:58:50
+GET /
+HEADERS=> {
+  "host": "localhost:8000",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:58:50
+GET /css/master.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0",
+  "accept": "text/css,*/*;q=0.1",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate",
+  "referer": "http://localhost:8000/",
+  "connection": "keep-alive"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:58:50
+GET /favicon.ico
+HEADERS=> {
+  "host": "localhost:8000",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate",
+  "connection": "keep-alive"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:58:54
+POST /game/join
+HEADERS=> {
+  "host": "localhost:8000",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate",
+  "referer": "http://localhost:8000/",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "29",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1"
+}
+COOKIES=> {}
+BODY=> {
+  "gameId": "TICTACTOE1519572506430"
+}
+--------------------------------
+Sun Feb 25 2018 20:58:54
+GET /game/TICTACTOE1519572506430/join
+HEADERS=> {
+  "host": "localhost:8000",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate",
+  "referer": "http://localhost:8000/",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:58:54
+GET /css/join.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0",
+  "accept": "text/css,*/*;q=0.1",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate",
+  "referer": "http://localhost:8000/game/TICTACTOE1519572506430/join",
+  "connection": "keep-alive"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 20:59:02
+POST /game/join/%7B%7B%20ID%20%7D%7D
+HEADERS=> {
+  "host": "localhost:8000",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate",
+  "referer": "http://localhost:8000/game/TICTACTOE1519572506430/join",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "15",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1"
+}
+COOKIES=> {}
+BODY=> {
+  "gameJoiner": "Teja"
+}
+--------------------------------
+Sun Feb 25 2018 20:59:08
+POST /game/join/%7B%7B%20ID%20%7D%7D
+HEADERS=> {
+  "host": "localhost:8000",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate",
+  "referer": "http://localhost:8000/game/TICTACTOE1519572506430/join",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "11",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1"
+}
+COOKIES=> {}
+BODY=> {
+  "gameJoiner": ""
+}
+--------------------------------
+Sun Feb 25 2018 21:00:13
+GET /
+HEADERS=> {
+  "host": "localhost:8000",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "if-none-match": "W/\"6d0-c9aAMB/WeLI6P3ZXyeLtn2Y6Uro\""
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 21:00:13
+GET /css/master.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0",
+  "accept": "text/css,*/*;q=0.1",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate",
+  "referer": "http://localhost:8000/",
+  "connection": "keep-alive",
+  "if-modified-since": "Sat, 24 Feb 2018 08:46:57 GMT",
+  "if-none-match": "W/\"9f8-161c6fe67e8\""
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 21:00:21
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "localhost:8000",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate",
+  "referer": "http://localhost:8000/",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 21:00:21
+GET /game/TICTACTOE1519572621233/shareGameId
+HEADERS=> {
+  "host": "localhost:8000",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate",
+  "referer": "http://localhost:8000/",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 21:00:21
+GET /css/shareGameId.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0",
+  "accept": "text/css,*/*;q=0.1",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate",
+  "referer": "http://localhost:8000/game/TICTACTOE1519572621233/shareGameId",
+  "connection": "keep-alive"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 21:00:32
+GET /
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "if-none-match": "W/\"6d0-c9aAMB/WeLI6P3ZXyeLtn2Y6Uro\""
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 21:00:32
+GET /css/master.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "if-none-match": "W/\"9f8-161c6fe67e8\"",
+  "if-modified-since": "Sat, 24 Feb 2018 08:46:57 GMT",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:8000/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 21:00:36
+POST /game/join
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "content-length": "7",
+  "cache-control": "max-age=0",
+  "origin": "http://localhost:8000",
+  "upgrade-insecure-requests": "1",
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {
+  "gameId": ""
+}
+--------------------------------
+Sun Feb 25 2018 21:00:36
+GET /land
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "cookie": "invalidGameId=Enter%20validate%20Game%20ID%20to%20join%20game",
+  "if-none-match": "W/\"6d0-c9aAMB/WeLI6P3ZXyeLtn2Y6Uro\""
+}
+COOKIES=> {
+  "invalidGameId": "Enter validate Game ID to join game"
+}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 21:00:36
+GET /css/master.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "if-none-match": "W/\"9f8-161c6fe67e8\"",
+  "if-modified-since": "Sat, 24 Feb 2018 08:46:57 GMT",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 21:00:42
+POST /game/join
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "content-length": "12",
+  "cache-control": "max-age=0",
+  "origin": "http://localhost:8000",
+  "upgrade-insecure-requests": "1",
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {
+  "gameId": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 21:00:42
+GET /land
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "cookie": "invalidGameId=Enter%20validate%20Game%20ID%20to%20join%20game",
+  "if-none-match": "W/\"6f3-jF1SDkTFJf9JpW6s7bQqlsm8XK0\""
+}
+COOKIES=> {
+  "invalidGameId": "Enter validate Game ID to join game"
+}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 21:00:42
+GET /css/master.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "if-none-match": "W/\"9f8-161c6fe67e8\"",
+  "if-modified-since": "Sat, 24 Feb 2018 08:46:57 GMT",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:8000/land",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 21:03:22
+GET /
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6",
+  "if-none-match": "W/\"6d0-c9aAMB/WeLI6P3ZXyeLtn2Y6Uro\""
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 21:03:22
+GET /css/master.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "if-none-match": "W/\"9f8-161c6fe67e8\"",
+  "if-modified-since": "Sat, 24 Feb 2018 08:46:57 GMT",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:8000/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 21:03:27
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "content-length": "17",
+  "cache-control": "max-age=0",
+  "origin": "http://localhost:8000",
+  "upgrade-insecure-requests": "1",
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 21:03:27
+GET /game/TICTACTOE1519572807561/shareGameId
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "referer": "http://localhost:8000/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 21:03:27
+GET /css/shareGameId.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+  "accept": "text/css,*/*;q=0.1",
+  "referer": "http://localhost:8000/game/TICTACTOE1519572807561/shareGameId",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,kn;q=0.6"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 21:03:50
+GET /
+HEADERS=> {
+  "host": "localhost:8000",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "if-none-match": "W/\"6d0-c9aAMB/WeLI6P3ZXyeLtn2Y6Uro\""
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 21:03:50
+GET /css/master.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0",
+  "accept": "text/css,*/*;q=0.1",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate",
+  "referer": "http://localhost:8000/",
+  "connection": "keep-alive",
+  "if-modified-since": "Sat, 24 Feb 2018 08:46:57 GMT",
+  "if-none-match": "W/\"9f8-161c6fe67e8\""
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 21:03:52
+POST /game/join
+HEADERS=> {
+  "host": "localhost:8000",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate",
+  "referer": "http://localhost:8000/",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "7",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1"
+}
+COOKIES=> {}
+BODY=> {
+  "gameId": ""
+}
+--------------------------------
+Sun Feb 25 2018 21:03:52
+GET /land
+HEADERS=> {
+  "host": "localhost:8000",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate",
+  "referer": "http://localhost:8000/",
+  "cookie": "invalidGameId=Enter%20validate%20Game%20ID%20to%20join%20game",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1"
+}
+COOKIES=> {
+  "invalidGameId": "Enter validate Game ID to join game"
+}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 21:03:52
+GET /css/master.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0",
+  "accept": "text/css,*/*;q=0.1",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate",
+  "referer": "http://localhost:8000/land",
+  "connection": "keep-alive",
+  "if-modified-since": "Sat, 24 Feb 2018 08:46:57 GMT",
+  "if-none-match": "W/\"9f8-161c6fe67e8\""
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 21:03:57
+POST /game/join
+HEADERS=> {
+  "host": "localhost:8000",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate",
+  "referer": "http://localhost:8000/land",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "12",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1"
+}
+COOKIES=> {}
+BODY=> {
+  "gameId": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 21:03:57
+GET /land
+HEADERS=> {
+  "host": "localhost:8000",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate",
+  "referer": "http://localhost:8000/land",
+  "cookie": "invalidGameId=Enter%20validate%20Game%20ID%20to%20join%20game",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1"
+}
+COOKIES=> {
+  "invalidGameId": "Enter validate Game ID to join game"
+}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 21:03:57
+GET /css/master.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0",
+  "accept": "text/css,*/*;q=0.1",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate",
+  "referer": "http://localhost:8000/land",
+  "connection": "keep-alive",
+  "if-modified-since": "Sat, 24 Feb 2018 08:46:57 GMT",
+  "if-none-match": "W/\"9f8-161c6fe67e8\""
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 21:03:59
+POST /game/join
+HEADERS=> {
+  "host": "localhost:8000",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate",
+  "referer": "http://localhost:8000/land",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "29",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1"
+}
+COOKIES=> {}
+BODY=> {
+  "gameId": "TICTACTOE1519572807561"
+}
+--------------------------------
+Sun Feb 25 2018 21:03:59
+GET /game/TICTACTOE1519572807561/join
+HEADERS=> {
+  "host": "localhost:8000",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate",
+  "referer": "http://localhost:8000/land",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 21:03:59
+GET /css/join.css
+HEADERS=> {
+  "host": "localhost:8000",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0",
+  "accept": "text/css,*/*;q=0.1",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate",
+  "referer": "http://localhost:8000/game/TICTACTOE1519572807561/join",
+  "connection": "keep-alive"
+}
+COOKIES=> {}
+BODY=> {}
