@@ -107,5 +107,29 @@ describe("# App",()=>{
       .redirectsTo('/game/TICTACTOE1234')
       .end(done);
     });
+    it("should redirect to the enroll form if both player names are same",done=>{
+      request(app)
+      .post("/game/TICTACTOE1234/join")
+      .send("gameJoiner=Bhanu")
+      .cookie.include("invalidName",encodeURI("Enter valid name"))
+      .expect(302)
+      .redirectsTo('/game/TICTACTOE1234/join')
+      .end(done);
+    });
+    it("should block the extra player to join game",done=>{
+      request(app)
+      .post("/game/TICTACTOE1234/join")
+      .send("gameJoiner=Teja")
+      .expect(302)
+      .redirectsTo('/game/TICTACTOE1234')
+      .end(()=>{
+        request(app)
+        .post("/game/TICTACTOE1234/join")
+        .send("gameJoiner=Varma")
+        .expect(302)
+        .redirectsTo('/game/TICTACTOE1234/join')
+        .end(done);
+      });
+    });
   });
 });

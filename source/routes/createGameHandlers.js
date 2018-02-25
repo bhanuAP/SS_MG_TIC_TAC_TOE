@@ -21,6 +21,7 @@ const createGameAndJoinCreator = function(req,res) {
   gameId = `TICTACTOE${gameId}`;
   game.addPlayer(player);
   req.app.games[gameId] = game;
+  res.cookie('player',player);
   res.redirect(`/game/${gameId}/shareGameId`);
 };
 
