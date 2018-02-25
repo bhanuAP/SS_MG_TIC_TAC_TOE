@@ -1,13 +1,13 @@
 const assert = require('chai').assert;
 const request = require('supertest');
 const app = require('../../app.js');
-const gameIdGen = app.gameIdGenerator;
+const gameIdGen = app.uniqueNumberGernerator;
 let games=app.games;
 
 describe("# App",()=>{
   beforeEach(() => {
-    app.gameIdGenerator = () => {
-      return "TICTACTOE1234";
+    app.uniqueNumberGernerator = () => {
+      return 1234;
     };
   });
   before(()=>{
@@ -15,7 +15,7 @@ describe("# App",()=>{
   })
 
   after(() => {
-    app.gameIdGenerator = gameIdGen;
+    app.uniqueNumberGernerator = gameIdGen;
     app.games = games;
   });
   describe("## GET /",()=>{

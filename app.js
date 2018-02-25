@@ -12,8 +12,8 @@ const app = express();
 app.fs = fs;
 app.games = {};
 
-app.gameIdGenerator = ()=> {
-  return `TICTACTOE${new Date().getTime()}`;
+app.uniqueNumberGernerator = ()=> {
+  return new Date().getTime();
 };
 
 app.use(express.urlencoded({extended:false}));

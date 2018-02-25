@@ -14,7 +14,8 @@ const serveLandingPage = function(req,res) {
 const createGameAndJoinCreator = function(req,res) {
   let player = req.body['gameCreator'];
   let game = new Game();
-  let gameId = req.app.gameIdGenerator();
+  let gameId = req.app.uniqueNumberGernerator();
+  gameId = `TICTACTOE${gameId}`;
   game.addPlayer(player);
   req.app.games[gameId] = game;
   res.redirect(`/game/${gameId}/shareGameId`);
