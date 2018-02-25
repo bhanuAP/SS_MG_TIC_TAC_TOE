@@ -2,7 +2,7 @@ class Player {
   constructor(name) {
     this.name = name;
   }
-  get playerName() {
+  getName() {
     return this.name;
   }
 };

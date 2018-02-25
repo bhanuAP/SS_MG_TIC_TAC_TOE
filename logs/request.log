@@ -25965,3 +25965,2153 @@ HEADERS=> {
 }
 COOKIES=> {}
 BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:07:37
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58349",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:07:37
+GET /land
+HEADERS=> {
+  "host": "127.0.0.1:58351",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:07:37
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58353",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:07:37
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58355",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:07:37
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58357",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:07:37
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58359",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "11",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "playerName": ""
+}
+--------------------------------
+Sun Feb 25 2018 18:07:37
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58361",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:07:37
+GET /game/TICTACTOE1234/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58363",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:07:37
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58365",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:07:37
+GET /game/TICTACTOE1234/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58367",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:07:37
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58369",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:07:37
+GET /game/TICTACTOE12345/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58371",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:07:37
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58373",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:07:37
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58375",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:07:37
+GET /game/TICTACTOE1234/wait
+HEADERS=> {
+  "host": "127.0.0.1:58377",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:07:37
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58379",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:07:37
+GET /game/TICTACTOE12345/wait
+HEADERS=> {
+  "host": "127.0.0.1:58381",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:30:19
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58474",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:30:19
+GET /land
+HEADERS=> {
+  "host": "127.0.0.1:58476",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:30:19
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58478",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:30:19
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58480",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:30:19
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58482",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:30:19
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58484",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "11",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "playerName": ""
+}
+--------------------------------
+Sun Feb 25 2018 18:30:19
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58486",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:30:19
+GET /game/TICTACTOE1234/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58488",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:30:19
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58490",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:30:19
+GET /game/TICTACTOE1234/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58492",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:30:19
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58494",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:30:19
+GET /game/TICTACTOE12345/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58496",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:30:19
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58498",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:30:19
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58500",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:30:19
+GET /game/TICTACTOE1234/wait
+HEADERS=> {
+  "host": "127.0.0.1:58502",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:30:19
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58504",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:30:19
+GET /game/TICTACTOE12345/wait
+HEADERS=> {
+  "host": "127.0.0.1:58506",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:30:48
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58508",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:30:49
+GET /land
+HEADERS=> {
+  "host": "127.0.0.1:58510",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:30:49
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58512",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:30:49
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58514",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:30:49
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58516",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:30:49
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58518",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "11",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "playerName": ""
+}
+--------------------------------
+Sun Feb 25 2018 18:30:49
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58520",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:30:49
+GET /game/TICTACTOE1234/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58522",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:30:49
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58524",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:30:49
+GET /game/TICTACTOE1234/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58526",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:30:49
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58528",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:30:49
+GET /game/TICTACTOE12345/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58530",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:30:49
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58532",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:30:49
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58534",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:30:49
+GET /game/TICTACTOE1234/wait
+HEADERS=> {
+  "host": "127.0.0.1:58536",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:30:49
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58538",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:30:49
+GET /game/TICTACTOE12345/wait
+HEADERS=> {
+  "host": "127.0.0.1:58540",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:07
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58542",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:07
+GET /land
+HEADERS=> {
+  "host": "127.0.0.1:58544",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:07
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58546",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:07
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58548",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:31:07
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58550",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:07
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58552",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "11",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "playerName": ""
+}
+--------------------------------
+Sun Feb 25 2018 18:31:07
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58554",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:31:07
+GET /game/TICTACTOE1234/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58556",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:07
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58558",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:31:07
+GET /game/TICTACTOE1234/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58560",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:07
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58562",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:31:07
+GET /game/TICTACTOE12345/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58564",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:07
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58566",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:07
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58568",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:31:07
+GET /game/TICTACTOE1234/wait
+HEADERS=> {
+  "host": "127.0.0.1:58570",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:07
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58572",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:31:07
+GET /game/TICTACTOE12345/wait
+HEADERS=> {
+  "host": "127.0.0.1:58574",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:26
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58576",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:26
+GET /land
+HEADERS=> {
+  "host": "127.0.0.1:58578",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:26
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58580",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:26
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58582",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:31:26
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58584",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:26
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58586",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "11",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "playerName": ""
+}
+--------------------------------
+Sun Feb 25 2018 18:31:26
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58588",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:31:26
+GET /game/TICTACTOE1234/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58590",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:26
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58592",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:31:26
+GET /game/TICTACTOE1234/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58594",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:26
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58596",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:31:26
+GET /game/TICTACTOE12345/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58598",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:26
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58600",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:26
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58602",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:31:26
+GET /game/TICTACTOE1234/wait
+HEADERS=> {
+  "host": "127.0.0.1:58604",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:26
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58606",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:31:26
+GET /game/TICTACTOE12345/wait
+HEADERS=> {
+  "host": "127.0.0.1:58608",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:36
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58610",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:36
+GET /land
+HEADERS=> {
+  "host": "127.0.0.1:58612",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:36
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58614",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:36
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58616",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:31:36
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58618",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:36
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58620",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "11",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "playerName": ""
+}
+--------------------------------
+Sun Feb 25 2018 18:31:36
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58622",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:31:36
+GET /game/TICTACTOE1234/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58624",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:36
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58626",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:31:36
+GET /game/TICTACTOE1234/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58628",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:36
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58630",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:31:36
+GET /game/TICTACTOE12345/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58632",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:36
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58634",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:36
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58636",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:31:36
+GET /game/TICTACTOE1234/wait
+HEADERS=> {
+  "host": "127.0.0.1:58638",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:36
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58640",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:31:36
+GET /game/TICTACTOE12345/wait
+HEADERS=> {
+  "host": "127.0.0.1:58642",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:46
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58644",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:46
+GET /land
+HEADERS=> {
+  "host": "127.0.0.1:58646",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:46
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58648",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:46
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58650",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:31:46
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58652",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:46
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58654",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "11",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "playerName": ""
+}
+--------------------------------
+Sun Feb 25 2018 18:31:46
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58656",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:31:46
+GET /game/TICTACTOE1234/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58658",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:46
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58660",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:31:46
+GET /game/TICTACTOE1234/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58662",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:46
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58664",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:31:46
+GET /game/TICTACTOE12345/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58666",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:46
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58668",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:46
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58670",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:31:46
+GET /game/TICTACTOE1234/wait
+HEADERS=> {
+  "host": "127.0.0.1:58672",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:31:46
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58674",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:31:46
+GET /game/TICTACTOE12345/wait
+HEADERS=> {
+  "host": "127.0.0.1:58676",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:50:10
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58827",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:50:10
+GET /land
+HEADERS=> {
+  "host": "127.0.0.1:58829",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:50:10
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58831",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:50:10
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58833",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:50:10
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58835",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:50:10
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58837",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "11",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "playerName": ""
+}
+--------------------------------
+Sun Feb 25 2018 18:50:10
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58839",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:50:10
+GET /game/TICTACTOE1234/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58841",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:50:10
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58843",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:50:10
+GET /game/TICTACTOE1234/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58845",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:50:10
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58847",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:50:10
+GET /game/TICTACTOE12345/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58849",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:50:10
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58851",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:50:10
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58853",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:50:10
+GET /game/TICTACTOE1234/wait
+HEADERS=> {
+  "host": "127.0.0.1:58855",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:50:10
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58857",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:50:10
+GET /game/TICTACTOE12345/wait
+HEADERS=> {
+  "host": "127.0.0.1:58859",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:51:06
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58863",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:51:06
+GET /land
+HEADERS=> {
+  "host": "127.0.0.1:58865",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:51:06
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58867",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:51:06
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58869",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:51:06
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58871",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:51:06
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58873",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "11",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "playerName": ""
+}
+--------------------------------
+Sun Feb 25 2018 18:51:06
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58875",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:51:06
+GET /game/TICTACTOE1234/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58877",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:51:06
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58879",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:51:06
+GET /game/TICTACTOE1234/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58881",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:51:06
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58883",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:51:06
+GET /game/TICTACTOE12345/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58885",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:51:06
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58887",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:51:06
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58889",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:51:06
+GET /game/TICTACTOE1234/wait
+HEADERS=> {
+  "host": "127.0.0.1:58891",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:51:06
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58893",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:51:06
+GET /game/TICTACTOE12345/wait
+HEADERS=> {
+  "host": "127.0.0.1:58895",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:51:12
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58897",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:51:12
+GET /land
+HEADERS=> {
+  "host": "127.0.0.1:58899",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:51:12
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58901",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:51:12
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58903",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:51:12
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58905",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:51:12
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58907",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "11",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "playerName": ""
+}
+--------------------------------
+Sun Feb 25 2018 18:51:12
+POST /game/joinGameCreator
+HEADERS=> {
+  "host": "127.0.0.1:58909",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:51:12
+GET /game/TICTACTOE1234/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58911",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:51:12
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58913",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:51:12
+GET /game/TICTACTOE1234/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58915",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:51:12
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58917",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:51:12
+GET /game/TICTACTOE12345/shareGameId
+HEADERS=> {
+  "host": "127.0.0.1:58919",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:51:12
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58921",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:51:12
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58923",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:51:12
+GET /game/TICTACTOE1234/wait
+HEADERS=> {
+  "host": "127.0.0.1:58925",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
+--------------------------------
+Sun Feb 25 2018 18:51:13
+GET /
+HEADERS=> {
+  "host": "127.0.0.1:58927",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "17",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {
+  "gameCreator": "Bhanu"
+}
+--------------------------------
+Sun Feb 25 2018 18:51:13
+GET /game/TICTACTOE12345/wait
+HEADERS=> {
+  "host": "127.0.0.1:58929",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.2",
+  "connection": "close"
+}
+COOKIES=> {}
+BODY=> {}
