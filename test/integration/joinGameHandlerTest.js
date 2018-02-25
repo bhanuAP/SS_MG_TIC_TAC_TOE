@@ -23,14 +23,6 @@ describe("# App",()=>{
     app.games = games;
   });
 
-  describe("## /game/TICTACTOE1234/hasPlayerJoined",()=>{
-    it("should get true if all players are joined",done=>{
-      request(app)
-      .get('/game/TICTACTOE1234/hasPlayerJoined')
-      .expect('{"start":false,"link":"/game/TICTACTOE1234"}')
-      .end(done);
-    });
-  });
   describe("## /game/join",()=>{
     it("should redirect to the landing page for invalid gameId",done=>{
       request(app)

@@ -1,12 +1,3 @@
-const serveGamePage = function(req,res) {
-  let {gameId} = req.params;
-  let game = req.app.games[gameId];
-  res.json({
-    start : game.hasPlayersJoined(),
-    link : `/game/${gameId}`
-  });
-};
-
 const serveEnrollingForm = function(req,res) {
   let {gameId} = req.params;
   let enrollingForm =
@@ -75,7 +66,6 @@ const verifyPlayer = function(req,res,next) {
 };
 
 module.exports = {
-  serveGamePage,
   validateGameIdForJoiner,
   serveEnrollingForm: [validateGameId,serveEnrollingForm],
   addPlayerToGame: [validateGameId,verifyPlayer,varifyPlayerName,addPlayerToGame]
