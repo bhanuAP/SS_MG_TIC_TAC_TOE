@@ -13,11 +13,6 @@ const serveBoardPage = function(req,res) {
   res.send(board);
 }
 
-const printCookies = function(req,res,next) {
-  console.log(`cookies are here ${req.cookies}`);
-  next();
-}
-
 module.exports = {
   serveGamePage,
   serveBoardPage: [serveBoardPage]
