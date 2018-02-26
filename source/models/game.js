@@ -14,6 +14,11 @@ class Game {
   hasPlayersJoined() {
     return this.players.length == this.numberOfPlayers;
   }
+  getPlayer(playerName) {
+    return this.players.some(player=>{
+      return player.getName() == playerName;
+    });
+  }
 };
 
 module.exports = Game;

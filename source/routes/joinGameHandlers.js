@@ -35,7 +35,7 @@ const addPlayerToGame = function(req,res) {
   let {gameId} = req.params;
   let game = req.app.games[gameId];
   game.addPlayer(player);
-  res.cookie('player',player)
+  res.cookie('player',player);
   res.redirect(`/game/${gameId}`);
 };
 
@@ -54,6 +54,19 @@ const varifyPlayerName = function(req,res,next) {
   }
 };
 
+const sendPlayerToBoardPage  = function(req,res,next) {
+  let playerName = req.body['gameJoiner'];
+  let {gameId} = req.params;
+  let game = req.app.games[gameId];
+  let player = game.getPlayer(req.cookies.player);
+  if(player) {
+    res.redirect(`/game/${gameId}`);
+    res.end();
+  } else {
+    next();
+  }
+};
+
 const verifyPlayer = function(req,res,next) {
   let playerName = req.body['gameJoiner'];
   let {gameId} = req.params;
@@ -68,5 +81,11 @@ const verifyPlayer = function(req,res,next) {
 module.exports = {
   validateGameIdForJoiner,
   serveEnrollingForm: [validateGameId,serveEnrollingForm],
-  addPlayerToGame: [validateGameId,verifyPlayer,varifyPlayerName,addPlayerToGame]
+  addPlayerToGame: [
+    validateGameId,
+    verifyPlayer,
+    sendPlayerToBoardPage,
+    varifyPlayerName,
+    addPlayerToGame
+  ]
 };

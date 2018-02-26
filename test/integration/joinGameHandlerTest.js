@@ -123,5 +123,14 @@ describe("# App",()=>{
         .end(done);
       });
     });
+    it("should redirect to the board page for existed player",done=>{
+      request(app)
+      .post("/game/TICTACTOE1234/join")
+      .send("gameJoiner=Bhanu")
+      .set("cookie",["player=Bhanu"])
+      .expect(302)
+      .redirectsTo('/game/TICTACTOE1234')
+      .end(done);
+    });
   });
 });
