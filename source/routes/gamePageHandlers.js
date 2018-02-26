@@ -9,6 +9,7 @@ const serveGamePage = function(req,res) {
 
 const serveBoardPage = function(req,res) {
   let board = req.app.fs.readFileSync('./templates/board.html','utf8');
+  board = board.replace('{{playerName}}',req.cookies.player);
   res.type('html');
   res.send(board);
 }

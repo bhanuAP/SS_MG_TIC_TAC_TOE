@@ -5,6 +5,7 @@ const serveEnrollingForm = function(req,res) {
   enrollingForm = enrollingForm.replace('{{ID}}',gameId)
   .replace('{{ID}}',gameId)
   .replace("{{invalidName}}",req.cookies.invalidName||'');
+  res.clearCookie('invalidName');
   res.type('html');
   res.send(enrollingForm);
 };
@@ -58,9 +59,9 @@ const sendPlayerToBoardPage  = function(req,res,next) {
   let playerName = req.body['gameJoiner'];
   let {gameId} = req.params;
   let game = req.app.games[gameId];
-  let player = game.getPlayer(req.cookies.player);
-  if(player) {
-    res.redirect(`/game/${gameId}`);
+  // let player = game.getPlayer(req.cookies.player);
+  if(req.cookies.player) {
+    res.redirect(`/game/${gameId}/wait`);
     res.end();
   } else {
     next();

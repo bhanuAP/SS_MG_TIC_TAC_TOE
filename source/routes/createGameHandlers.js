@@ -4,10 +4,10 @@ const serveLandingPage = function(req,res) {
   landingPage = req.app.fs.readFileSync('./templates/landingPage.html','utf8');
   landingPage = landingPage
   .replace('{{default}}',req.cookies.invalidGameId ? 'join' : 'create')
-  .replace('{{INVALIDNAME}}',req.cookies.inavalidName||"")
+  .replace('{{INVALIDNAME}}',req.cookies.invalidName||"")
   .replace('{{CREATEGAME}}',req.cookies.createGame||"")
   .replace('{{INVALIDGAMEID}}',req.cookies.invalidGameId||"");
-  res.clearCookie('inavalidName');
+  res.clearCookie('invalidName');
   res.clearCookie('createGame');
   res.clearCookie('invalidGameId');
   res.type('html');
@@ -28,7 +28,7 @@ const createGameAndJoinCreator = function(req,res) {
 const verifyPlayerName = function(req,res,next) {
   let playerName = req.body['gameCreator'];
   if(!playerName) {
-    res.cookie("inavalidName","Enter valid name");
+    res.cookie("invalidName","Enter valid name");
     res.redirect('/land');
   } else {
     next();
