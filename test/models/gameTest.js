@@ -27,4 +27,11 @@ describe("# Game",()=>{
       assert.isOk(game.hasPlayersJoined());
     });
   });
+  describe("# game.getPlayer",()=>{
+    it("should get the player related to given name",()=>{
+      game.addPlayer('Bhanu');
+      assert.isOk(game.getPlayer('Bhanu'));
+      assert.isNotOk(game.getPlayer('Teja'));
+    });
+  });
 });
