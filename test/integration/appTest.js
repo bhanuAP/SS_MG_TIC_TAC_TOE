@@ -63,7 +63,7 @@ describe("# App",()=>{
         .post("/game/joinGameCreator")
         .send("playerName=")
         .expect(302)
-        .cookie.include("inavalidName","Enter%20valid%20name")
+        .cookie.include("invalidName","Enter%20valid%20name")
         .redirectsTo("/land")
         .end(done);
       })

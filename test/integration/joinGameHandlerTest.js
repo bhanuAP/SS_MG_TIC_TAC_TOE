@@ -129,7 +129,7 @@ describe("# App",()=>{
       .send("gameJoiner=Bhanu")
       .set("cookie",["player=Bhanu"])
       .expect(302)
-      .redirectsTo('/game/TICTACTOE1234')
+      .redirectsTo('/game/TICTACTOE1234/wait')
       .end(done);
     });
   });
