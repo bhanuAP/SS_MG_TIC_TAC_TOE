@@ -17,12 +17,13 @@ const serveLandingPage = function(req,res) {
 const createGameAndJoinCreator = function(req,res) {
   let player = req.body['gameCreator'];
   let game = new Game();
-  let gameId = req.app.uniqueNumberGernerator();
+  let gameId = req.app.gameIdGenerator();
   gameId = `TICTACTOE${gameId}`;
-  game.addPlayer(player);
+  let playerId = req.app.gameIdGenerator();
+  game.addPlayer(player,playerId);
   req.app.games[gameId] = game;
-  res.cookie('player',player);
-  res.redirect(`/game/${gameId}/shareGameId`);
+  res.cookie(gameId,`creator:${playerId};`);
+  res.redirect(`/game/${gameId}/${playerId}/shareGameId`);
 };
 
 const verifyPlayerName = function(req,res,next) {

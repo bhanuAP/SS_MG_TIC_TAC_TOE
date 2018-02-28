@@ -1,9 +1,11 @@
 const serveSharingPage = function(req,res) {
   let {gameId} = req.params;
+  let {playerId} = req.params;
   let sharingPage =
   req.app.fs.readFileSync('./templates/shareGameId.html','utf8');
   sharingPage =
-  sharingPage.replace('{{gameId}}',gameId).replace('{{gameId}}',gameId);
+  sharingPage.replace('{{gameId}}',gameId).replace('{{gameId}}',gameId)
+  .replace('{{playerId}}',playerId);
   res.type('html')
   res.send(sharingPage);
 };

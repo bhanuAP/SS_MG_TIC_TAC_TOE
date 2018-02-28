@@ -36,7 +36,12 @@ const addPlayerToGame = function(req,res) {
   let {gameId} = req.params;
   let game = req.app.games[gameId];
   game.addPlayer(player);
-  res.cookie('player',player);
+  // let creator = `creator=${req.cookies.player};`;
+  // let joiner = `joiner=${player}`;
+  gameIdCookie = req.cookies[gameId];
+  console.log(`${req.cookies[gameId]};joiner=${player}`);
+  // res.cookie(gameId,`${req.cookie.gameId};joiner=${player}`);
+  // res.cookie('player',creator+joiner);
   res.redirect(`/game/${gameId}`);
 };
 
@@ -56,11 +61,13 @@ const varifyPlayerName = function(req,res,next) {
 };
 
 const sendPlayerToBoardPage  = function(req,res,next) {
+  // main thing happens here
+  console.log(JSON.stringify(req.cookies));
   let playerName = req.body['gameJoiner'];
   let {gameId} = req.params;
   let game = req.app.games[gameId];
-  // let player = game.getPlayer(req.cookies.player);
-  if(req.cookies.player) {
+  let player = game.getPlayer(req.cookies.player);
+  if(!player) {
     res.redirect(`/game/${gameId}/wait`);
     res.end();
   } else {

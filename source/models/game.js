@@ -8,8 +8,8 @@ class Game {
   getPlayers() {
     return this.players;
   }
-  addPlayer(playerName) {
-    this.players.push(new Player(playerName));
+  addPlayer(name,Id) {
+    this.players.push(new Player(name,Id));
   }
   hasPlayersJoined() {
     return this.players.length == this.numberOfPlayers;

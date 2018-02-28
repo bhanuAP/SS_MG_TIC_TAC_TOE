@@ -1,21 +1,23 @@
 const assert = require('chai').assert;
 const request = require('supertest');
 const app = require('../../app.js');
-const gameIdGen = app.uniqueNumberGernerator;
+const gameIdGen = app.gameIdGenerator;
 let games=app.games;
+let number = 0;
 
 describe("# App",()=>{
   beforeEach(() => {
-    app.uniqueNumberGernerator = () => {
-      return 1234;
-    };
+    app.gameIdGenerator = ()=>{
+      return ++number;
+    }
+    number = 0;
   });
   before(()=>{
     app.games = {};
-  })
+  });
 
   after(() => {
-    app.uniqueNumberGernerator = gameIdGen;
+    app.gameIdGenerator = gameIdGen;
     app.games = games;
   });
   describe("## GET /",()=>{
@@ -50,7 +52,7 @@ describe("# App",()=>{
         request(app)
         .post("/game/joinGameCreator")
         .send("gameCreator=Bhanu")
-        .redirectsTo("/game/TICTACTOE1234/shareGameId")
+        .redirectsTo("/game/TICTACTOE1/2/shareGameId")
         .end(done);
       });
     });
@@ -74,43 +76,43 @@ describe("# App",()=>{
       request(app)
       .post("/game/joinGameCreator")
       .send("gameCreator=Bhanu")
-      .redirectsTo("/game/TICTACTOE1234/shareGameId")
+      .redirectsTo("/game/TICTACTOE1/2/shareGameId")
       .end(done);
     });
   });
-  describe("## GET /game/TICTACTOE1234/shareGameId",()=>{
+  describe("## GET /game/TICTACTOE1/2/shareGameId",()=>{
     it("should get the share gameId page",done=>{
       request(app)
-      .get("/game/TICTACTOE1234/shareGameId")
+      .get("/game/TICTACTOE1/2/shareGameId")
       .expect(200)
       .expect(/Share Game Id/)
       .expect(/Game Id:/)
-      .expect(/TICTACTOE1234/)
+      .expect(/TICTACTOE1/)
       .end(done);
     });
   });
 
-
-  describe("## GET /game/TICTACTOE1234/wait",()=>{
+  describe("## GET /game/TICTACTOE1/2/wait",()=>{
     beforeEach(done=>{
       request(app)
       .get("/")
       .send("gameCreator=Bhanu")
       .end(done);
     });
-    describe("### GET /game/TICTACTOE1234/shareGameId",()=>{
+    describe("### GET /game/TICTACTOE1/2/shareGameId",()=>{
+      console.log("hello");
       it("should get the shareGameId page for valid gameGameId",done=>{
         request(app)
-        .get("/game/TICTACTOE1234/shareGameId")
+        .get("/game/TICTACTOE1/2/shareGameId")
         .expect(200)
         .expect(/Share Game Id/)
         .expect(/Game Id:/)
-        .expect(/TICTACTOE1234/)
+        .expect(/TICTACTOE1/)
         .end(done);
       });
       it("should get the landing page for invalid gameId",done=>{
         request(app)
-        .get("/game/TICTACTOE12345/shareGameId")
+        .get("/game/TICTACTOE12/2/shareGameId")
         .expect(302)
         .redirectsTo("/land")
         .end(()=>{
@@ -125,19 +127,18 @@ describe("# App",()=>{
         });
       });
     });
-    describe("### GET /game/TICTACTOE1234/wait",()=>{
+    describe("### GET /game/TICTACTOE1/2/wait",()=>{
       it("should get the waiting page of the game",done=>{
         request(app)
-        .get('/game/TICTACTOE1234/wait')
+        .get('/game/TICTACTOE1/2/wait')
         .expect(/TIC TAC TOE/)
         .expect(/Please Wait.../)
-        .expect(/please wait until your co-player joins the game TICTACTOE1234/)
+        .expect(/please wait until your co-player joins the game TICTACTOE1/)
         .end(done);
       });
       it("should redict to the landing page fot invalid game Id",done=>{
         request(app)
-        request(app)
-        .get('/game/TICTACTOE12345/wait')
+        .get('/game/TICTACTOE12/2/wait')
         .expect(302)
         .redirectsTo("/land")
         .cookie.include('createGame',`Enter%20your%20name%20to%20create%20new%20game`)

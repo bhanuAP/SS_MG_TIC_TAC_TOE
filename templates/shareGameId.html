@@ -11,7 +11,7 @@
       </div>
       <div class="tabContent">
         <p id="playerMessage">copy the below game ID and share it with your co-player, so that they can join in this game with you</p>
-        <form action="/game/{{gameId}}/wait" method="get">
+        <form action="/game/{{gameId}}/{{playerId}}/wait" method="get">
           <label for="gameId">Game Id:</label>
           <span class="gameID">{{gameId}}</span>
           <input class="okayButton" type="submit" value="Okay Copied">
