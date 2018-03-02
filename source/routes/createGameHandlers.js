@@ -22,7 +22,7 @@ const createGameAndJoinCreator = function(req,res) {
   let playerId = req.app.gameIdGenerator();
   game.addPlayer(player,playerId);
   req.app.games[gameId] = game;
-  res.cookie(gameId,`creator:${playerId};`);
+  res.cookie(gameId,`creator=${playerId};`);
   res.redirect(`/game/${gameId}/${playerId}/shareGameId`);
 };
 

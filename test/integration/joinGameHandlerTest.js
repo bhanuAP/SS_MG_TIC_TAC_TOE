@@ -5,7 +5,7 @@ const gameIdGen = app.gameIdGenerator;
 let games=app.games;
 let number = 0;
 
-describe("# App",()=>{
+describe.only("# App",()=>{
   beforeEach(done => {
     app.gameIdGenerator = ()=>{
       return ++number;
@@ -25,7 +25,7 @@ describe("# App",()=>{
     app.games = games;
   });
 
-  describe("## /game/join",()=>{
+  describe.skip("## /game/join",()=>{
     it("should redirect to the landing page for invalid gameId",done=>{
       request(app)
       .post("/game/join")
@@ -57,7 +57,7 @@ describe("# App",()=>{
       .end(done);
     });
   });
-  describe("## GET /game/TICTACTOE1/join",()=>{
+  describe.skip("## GET /game/TICTACTOE1/join",()=>{
     it("should get the enrolling form for the user",done=>{
       request(app)
       .get("/game/TICTACTOE1/join")
@@ -76,7 +76,7 @@ describe("# App",()=>{
       .end(done);
     });
   });
-  describe.skip("##### POST /game/TICTACTOE1234/join",()=>{
+  describe("##### POST /game/TICTACTOE1234/join",()=>{
     it("should redirect to landingPage for invalid name",done=>{
       request(app)
       .post("/game/TICTACTOE12/join")

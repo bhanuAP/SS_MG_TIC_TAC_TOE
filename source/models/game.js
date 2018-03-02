@@ -19,6 +19,12 @@ class Game {
       return player.getName() == playerName;
     });
   }
+  getPlayerName(id) {
+    let player = this.players.filter(player=>{
+      return player.getId() == id;
+    });
+    return player[0].name;
+  };
 };
 
 module.exports = Game;

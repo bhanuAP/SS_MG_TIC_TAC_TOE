@@ -7,10 +7,11 @@ const sendAjaxRequest = function (method, url, cb, data='') {
 
 window.onload = setInterval(function () {
   let gameId = window.location.pathname.split('/')[2];
-  sendAjaxRequest('get',`/game/${gameId}/hasPlayerJoined`,(res)=>{
+  let playerId = window.location.pathname.split('/')[3];
+  sendAjaxRequest('get',`/game/${gameId}/${playerId}/hasPlayerJoined`,(res)=>{
     res = JSON.parse(res);
     if(res.start) {
       window.location = res.link;
     }
   });
-},3000);
+},800);

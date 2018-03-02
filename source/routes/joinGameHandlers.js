@@ -35,14 +35,11 @@ const addPlayerToGame = function(req,res) {
   let player = req.body['gameJoiner'];
   let {gameId} = req.params;
   let game = req.app.games[gameId];
-  game.addPlayer(player);
-  // let creator = `creator=${req.cookies.player};`;
-  // let joiner = `joiner=${player}`;
-  gameIdCookie = req.cookies[gameId];
-  console.log(`${req.cookies[gameId]};joiner=${player}`);
-  // res.cookie(gameId,`${req.cookie.gameId};joiner=${player}`);
-  // res.cookie('player',creator+joiner);
-  res.redirect(`/game/${gameId}`);
+  let playerId = req.app.gameIdGenerator();
+  game.addPlayer(player,playerId);
+  let gameCookie = req.cookies[gameId];
+  res.cookie(gameId,gameCookie+`joiner=${playerId}`);
+  res.redirect(`/game/${gameId}/${playerId}`);
 };
 
 const varifyPlayerName = function(req,res,next) {
@@ -60,18 +57,28 @@ const varifyPlayerName = function(req,res,next) {
   }
 };
 
+const getPlayers = function(cookie) {
+  let returnObject = {};
+  let players = cookie.split(';');
+  let creator = players[0].split('=');
+  let joiner = players[1].split('=');
+  returnObject[creator[0]] = creator[1];
+  returnObject[joiner[0]] = joiner[1];
+  return returnObject;
+};
+
 const sendPlayerToBoardPage  = function(req,res,next) {
-  // main thing happens here
-  console.log(JSON.stringify(req.cookies));
   let playerName = req.body['gameJoiner'];
   let {gameId} = req.params;
-  let game = req.app.games[gameId];
-  let player = game.getPlayer(req.cookies.player);
-  if(!player) {
-    res.redirect(`/game/${gameId}/wait`);
-    res.end();
-  } else {
+  let gameCookie = req.cookies[gameId]
+  players = getPlayers(gameCookie);
+  if(!players.joiner) {
     next();
+  }
+  else {
+    res.setCookie('extraPlayer','Both players are already joined');
+    res.redirect('/land');
+    res.end();
   }
 };
 
