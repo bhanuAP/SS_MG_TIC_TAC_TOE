@@ -8,13 +8,21 @@ const serveGamePage = function(req,res) {
 };
 
 const serveBoardPage = function(req,res) {
+  let {gameId} = req.params;
+  let playersRole = {'0': "creator", '1': "joiner"};
   let board = req.app.fs.readFileSync('./templates/board.html','utf8');
-  board = board.replace('{{playerName}}',req.cookies.player);
+  let game = req.app.games[gameId];
+  let cookie = req.cookies.game;
+  let playerRoleCode = cookie.split("TICTACTOE")[0];
+  let playerRole = playersRole[playerRoleCode];
+  let playerName = game.getPlayerName(playerRole);
+
+  board = board.replace('{{playerName}}', playerName);
   res.type('html');
   res.send(board);
-}
+};
 
 module.exports = {
   serveGamePage,
   serveBoardPage: [serveBoardPage]
-}
+};

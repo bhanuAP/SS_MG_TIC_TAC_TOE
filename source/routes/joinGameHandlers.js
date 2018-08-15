@@ -3,14 +3,14 @@ const serveEnrollingForm = function(req,res) {
   let enrollingForm =
   req.app.fs.readFileSync('./templates/enrollingForm.html','utf8');
   enrollingForm = enrollingForm.replace('{{ID}}',gameId)
-  .replace('{{ID}}',gameId)
-  .replace("{{invalidName}}",req.cookies.invalidName||'');
+    .replace('{{ID}}',gameId)
+    .replace("{{invalidName}}",req.cookies.invalidName||'');
   res.clearCookie('invalidName');
   res.type('html');
   res.send(enrollingForm);
 };
 
-const validateGameIdForJoiner = function(req,res) {
+const validateGameId = function(req,res) {
   let gameId = req.body['gameId'];
   if(req.app.games[gameId]) {
     res.redirect(`/game/${gameId}/join`);
@@ -21,7 +21,7 @@ const validateGameIdForJoiner = function(req,res) {
   }
 };
 
-const validateGameId = function(req,res,next) {
+const verifyGameId = function(req,res,next) {
   let {gameId} = req.params;
   if(req.app.games[gameId]) {
     next();
@@ -35,19 +35,20 @@ const addPlayerToGame = function(req,res) {
   let player = req.body['gameJoiner'];
   let {gameId} = req.params;
   let game = req.app.games[gameId];
-  game.addPlayer(player);
-  res.cookie('player',player);
+  let cookie = "1" + gameId;
+  res.cookie('game', cookie);
+  game.addPlayer(player, "joiner");
   res.redirect(`/game/${gameId}`);
 };
 
-const varifyPlayerName = function(req,res,next) {
+const verifyPlayerName = function(req,res,next) {
   let gameJoinerName = req.body['gameJoiner'];
   let {gameId} = req.params;
   let game = req.app.games[gameId];
-  let players = game.getPlayers();
-  let gameCreatorName = players[0].getName();
+  let creatorRole = "creator";
+  let gameCreatorName = game.getPlayerName(creatorRole);
   let playerNamesEqual = gameCreatorName == gameJoinerName;
-  if(!playerNamesEqual && players.length <= 1) {
+  if(!playerNamesEqual) {
     next();
   } else {
     res.cookie("invalidName","Enter valid name");
@@ -55,12 +56,11 @@ const varifyPlayerName = function(req,res,next) {
   }
 };
 
-const sendPlayerToBoardPage  = function(req,res,next) {
+const verifyPlayersCount = function(req,res,next) {
   let playerName = req.body['gameJoiner'];
   let {gameId} = req.params;
   let game = req.app.games[gameId];
-  // let player = game.getPlayer(req.cookies.player);
-  if(req.cookies.player) {
+  if(req.cookies.game) {
     res.redirect(`/game/${gameId}/wait`);
     res.end();
   } else {
@@ -80,13 +80,13 @@ const verifyPlayer = function(req,res,next) {
 };
 
 module.exports = {
-  validateGameIdForJoiner,
-  serveEnrollingForm: [validateGameId,serveEnrollingForm],
+  validateGameId,
+  serveEnrollingForm: [verifyGameId,serveEnrollingForm],
   addPlayerToGame: [
-    validateGameId,
+    verifyGameId,
     verifyPlayer,
-    sendPlayerToBoardPage,
-    varifyPlayerName,
+    verifyPlayersCount,
+    verifyPlayerName,
     addPlayerToGame
   ]
 };

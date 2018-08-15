@@ -13,7 +13,7 @@ const app = express();
 app.fs = fs;
 app.games = {};
 
-app.uniqueNumberGernerator = ()=> {
+app.uniqueNumberGen = ()=> {
   return new Date().getTime();
 };
 
@@ -27,10 +27,11 @@ app.post('/game/joinGameCreator',createGameHandlers.createGame);
 app.get('/game/:gameId/shareGameId',utilityPageHandlers.serveSharingPage);
 app.get('/game/:gameId/wait',utilityPageHandlers.serveWaitingPage);
 app.get('/game/:gameId/hasPlayerJoined',gamePageHandlers.serveGamePage);
-app.post('/game/join',joinGameHandlers.validateGameIdForJoiner);
+app.post('/game/join',joinGameHandlers.validateGameId);
 app.get('/game/:gameId/join',joinGameHandlers.serveEnrollingForm);
 app.post('/game/:gameId/join',joinGameHandlers.addPlayerToGame);
 app.get('/game/:gameId',gamePageHandlers.serveBoardPage);
+// app.get('/game/:gameId/getGameStatus', gamePageHandlers.getGameStatus);
 
 app.use(express.static('public'));
 module.exports = app;

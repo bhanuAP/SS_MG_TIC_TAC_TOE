@@ -4,7 +4,7 @@ const serveSharingPage = function(req,res) {
   req.app.fs.readFileSync('./templates/shareGameId.html','utf8');
   sharingPage =
   sharingPage.replace('{{gameId}}',gameId).replace('{{gameId}}',gameId);
-  res.type('html')
+  res.type('html');
   res.send(sharingPage);
 };
 
@@ -31,4 +31,4 @@ const validateGameId = function(req,res,next) {
 module.exports = {
   serveSharingPage: [validateGameId,serveSharingPage],
   serveWaitingPage: [validateGameId,serveWaitingPage]
-}
+};

@@ -1,12 +1,13 @@
 const Game = require('../models/game.js');
 
 const serveLandingPage = function(req,res) {
-  landingPage = req.app.fs.readFileSync('./templates/landingPage.html','utf8');
+  let fs = req.app.fs;
+  let landingPage = fs.readFileSync('./templates/landingPage.html','utf8');
   landingPage = landingPage
-  .replace('{{default}}',req.cookies.invalidGameId ? 'join' : 'create')
-  .replace('{{INVALIDNAME}}',req.cookies.invalidName||"")
-  .replace('{{CREATEGAME}}',req.cookies.createGame||"")
-  .replace('{{INVALIDGAMEID}}',req.cookies.invalidGameId||"");
+    .replace('{{default}}',req.cookies.invalidGameId ? 'join' : 'create')
+    .replace('{{INVALIDNAME}}',req.cookies.invalidName||"")
+    .replace('{{CREATEGAME}}',req.cookies.createGame||"")
+    .replace('{{INVALIDGAMEID}}',req.cookies.invalidGameId||"");
   res.clearCookie('invalidName');
   res.clearCookie('createGame');
   res.clearCookie('invalidGameId');
@@ -14,14 +15,15 @@ const serveLandingPage = function(req,res) {
   res.send(landingPage);
 };
 
-const createGameAndJoinCreator = function(req,res) {
-  let player = req.body['gameCreator'];
+const joinGameCreator = function(req,res) {
   let game = new Game();
-  let gameId = req.app.uniqueNumberGernerator();
-  gameId = `TICTACTOE${gameId}`;
-  game.addPlayer(player);
+  let player = req.body['gameCreator'];
+  let randomNumber = req.app.uniqueNumberGen();
+  game.addPlayer(player, "creator");
+  let gameId = `TICTACTOE${randomNumber}`;
   req.app.games[gameId] = game;
-  res.cookie('player',player);
+  let cookie = "0" + gameId;
+  res.cookie('game', cookie);
   res.redirect(`/game/${gameId}/shareGameId`);
 };
 
@@ -37,5 +39,5 @@ const verifyPlayerName = function(req,res,next) {
 
 module.exports = {
   serveLandingPage,
-  createGame: [verifyPlayerName,createGameAndJoinCreator]
+  createGame: [verifyPlayerName, joinGameCreator]
 };

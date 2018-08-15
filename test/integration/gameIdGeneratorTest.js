@@ -1,9 +1,9 @@
 const assert = require('chai').assert;
 const app = require('../../app.js');
 
-describe('#uniqueNumberGernerator',()=>{
+describe('#uniqueNumberGen',()=>{
   it('should generate an id for game',()=>{
-    let id = app.uniqueNumberGernerator();
+    let id = app.uniqueNumberGen();
     assert.closeTo(id,new Date().getTime(), 500);
   });
 });

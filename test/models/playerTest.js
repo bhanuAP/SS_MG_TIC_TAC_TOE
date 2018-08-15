@@ -2,13 +2,32 @@ const Player = require('../../source/models/player.js');
 const assert = require('chai').assert;
 
 describe("# Player",()=>{
-  let player;
-  beforeEach(()=>{
-    player = new Player("Bhanu");
+  describe("# player.getName",()=>{
+    it("should get the name of the player",()=>{
+      let name = "Bhanu";
+      let role = "creator";
+      let player = new Player(name, role);
+      assert.equal(player.getName(), name);
+    });
+    it("should not get the role of the player",()=>{
+      let name = "Bhanu";
+      let role = "creator";
+      let player = new Player(name, role);
+      assert.notEqual(player.getName(), role);
+    });
   });
-  describe("# player.Name",()=>{
-    it("should get the player name of the player",()=>{
-      assert.equal(player.getName(),"Bhanu");
-    })
+  describe("# player.getRole",()=>{
+    it("should get the role of the player",()=>{
+      let name = "Bhanu";
+      let role = "creator";
+      let player = new Player(name, role);
+      assert.equal(player.getRole(), role);
+    });
+    it("should not get the name of the player",()=>{
+      let name = "Bhanu";
+      let role = "creator";
+      let player = new Player(name, role);
+      assert.notEqual(player.getRole(), name);
+    });
   });
 });
